@@ -19,12 +19,47 @@ print(myAge)
 var someValue = 3.1415*16
 someValue = someValue * 231.1
 
-var isReal :Bool
-isReal = false
-print(isReal)
-isReal = true
-print(isReal)
+var isReals :Bool
+isReals = false
+print(isReals)
+isReals = true
+print(isReals)
 
 let myName :String
 myName = "Brit"
 print(myName)
+
+// My own work
+//practicing using for-in with let
+let names = ["Anna", "alex", "Brit", "Ammy", "Fred"]
+for name in names{
+    print("Hello, \(name)!")
+}
+
+let numbers = [ 1,4,6,7,10]
+for pig in numbers{ // pig is a variable I can name it anything I want( but keep it to the objective )
+    print(pig)
+}
+
+let isReal = [true, false, true, true, false]
+for statement in isReal{
+    print(statement)
+}
+
+let numDoubles = [ 13.2, 34.4, 342, 33242.3]
+for num in numDoubles{
+    print(num)
+}
+
+//practicing using for-in with var
+var firstNames = ["Jacob", "Jason", "Jessica", "Jamie"]
+for firstName in firstNames{
+    print("My first name is \(firstName) ")
+}
+
+var myAges = [ 12,15,17,18]
+for myAge in myAges {
+    print("My age is \(myAge)")
+}
+
+//practicing using  for-in with var/let and type
