@@ -62,4 +62,16 @@ for myAge in myAges {
     print("My age is \(myAge)")
 }
 
-//practicing using  for-in with var/let and type
+//practicing using for-in with var/let and type didn't work
+//countinuing using for-in with var/let
+var myHeights = [5.5,6.1,5.9,4.11]
+for myHeight in myHeights{
+    print("my height is \(myHeight)")
+}
+
+let myGenders = [false, false, true, true]
+for myGender in myGenders{
+    print("I am a girl \(myGender)")
+}
+
+
