@@ -74,4 +74,14 @@ for myGender in myGenders{
     print("I am a girl \(myGender)")
 }
 
+//practice using (key,value) with let/var
+let numberOfLegs = ["spider": 8, "ant":6, "cat":4]
+for (animalName, legCount) in numberOfLegs {
+    print("\(animalName)s have \(legCount) legs")
+}
+
+var colorfHair = ["Jason": "black", "Carol": "Blonde", "Fred": "brown"]
+for (firstName, hairColor) in colorfHair{
+    print("\(firstName) has \(hairColor) hair. ")
+}
 
