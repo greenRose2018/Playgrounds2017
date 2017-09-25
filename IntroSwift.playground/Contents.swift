@@ -16,13 +16,15 @@ print(myAge)
 myAge = myAge * 3
 print(myAge)
 
-var someValue= 3.1415*16
-someValue =someValue * 231.1
+var someValue = 3.1415*16
+someValue = someValue * 231.1
 
-var is Real :Bool
+var isReal :Bool
 isReal = false
+print(isReal)
 isReal = true
+print(isReal)
+
 let myName :String
 myName = "Brit"
-
-print
+print(myName)
