@@ -2,4 +2,16 @@
 
 import UIKit
 
-var str = "Hello, playground"
+var todayNotes = "Working with classes"
+
+public class SimpleClass
+{
+    private var myName :String
+    
+    public init()
+    {
+        myName = "words in here"
+        print(myName)
+    }
+}
+var mySample :SimpleClass = SimpleClass() //this calls the init
