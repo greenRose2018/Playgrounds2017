@@ -14,6 +14,7 @@ var secondButton = UIButton(frame: CGRect(x: 50, y:50, width:100, height: 100))
 secondButton.backgroundColor = .yellow
 secondButton.setTitle("yay", for: .normal)
 secondButton.setTitleColor(.red, for: .normal)
+
 var firstLabel: UILabel = UILabel()
 firstLabel.frame = CGRect(x:50, y:150, width:200, height:21)
 firstLabel.backgroundColor = .purple
