@@ -22,6 +22,6 @@ firstLabel.textAlignment = NSTextAlignment.center
 firstLabel.text = "hello there"
 var secondLabel: UILabel =  UILabel(frame: CGRect(x:100, y:100, width:200, height:50))
 secondLabel.backgroundColor = .orange
-
-//var frame = CGRect(x:45,y:45, width:20, height:20)
-//var backgroundColor = .black
+secondLabel.textColor = .black
+secondLabel.textAlignment = NSTextAlignment.center
+secondLabel.text = "Back at it again"
