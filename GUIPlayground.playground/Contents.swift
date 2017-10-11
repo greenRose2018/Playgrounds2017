@@ -29,4 +29,17 @@ let rect = CGRect(x:10, y:10, width:100, height:100)
 var firstView = UIView(frame: rect)
 firstView.backgroundColor = .blue
 
+let scondView = UIView(frame: rect)
+scondView.backgroundColor  = .yellow
+var  thirdView = UIView(frame: rect)
+thirdView.backgroundColor = .red
 
+var firstDatePicker = UIDatePicker()
+firstDatePicker.datePickerMode = .date
+
+firstDatePicker.translatesAutoresizingMaskIntoConstraints = false
+/*NSLayoutConstraint.activate([
+    firstDatePicker.topAnchor.constraint(equalTo: thirdView.topAnchor, constant:20),
+    firstDatePicker.leadingAnchor.contraint(equalTo: thirdView.leadingAnchor, constant:20),
+    firstDatePicker.trailingAnchor.constraint(equalTo: thirdView.trailingAnchor, constant:-20)
+    ])*/
