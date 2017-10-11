@@ -27,4 +27,6 @@ secondLabel.textAlignment = NSTextAlignment.center
 secondLabel.text = "Back at it again"
 let rect = CGRect(x:10, y:10, width:100, height:100)
 var firstView = UIView(frame: rect)
-firstView.
+firstView.backgroundColor = .blue
+
+
