@@ -37,9 +37,5 @@ thirdView.backgroundColor = .red
 var firstDatePicker = UIDatePicker()
 firstDatePicker.datePickerMode = .date
 
-firstDatePicker.translatesAutoresizingMaskIntoConstraints = false
-/*NSLayoutConstraint.activate([
-    firstDatePicker.topAnchor.constraint(equalTo: thirdView.topAnchor, constant:20),
-    firstDatePicker.leadingAnchor.contraint(equalTo: thirdView.leadingAnchor, constant:20),
-    firstDatePicker.trailingAnchor.constraint(equalTo: thirdView.trailingAnchor, constant:-20)
-    ])*/
+
+
