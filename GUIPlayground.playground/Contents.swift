@@ -20,6 +20,7 @@ firstLabel.backgroundColor = .purple
 firstLabel.textColor = UIColor.white
 firstLabel.textAlignment = NSTextAlignment.center
 firstLabel.text = "hello there"
+
 var secondLabel: UILabel =  UILabel(frame: CGRect(x:100, y:100, width:200, height:50))
 secondLabel.backgroundColor = .orange
 secondLabel.textColor = .black
@@ -36,6 +37,3 @@ thirdView.backgroundColor = .red
 
 var firstDatePicker = UIDatePicker()
 firstDatePicker.datePickerMode = .date
-
-
-
